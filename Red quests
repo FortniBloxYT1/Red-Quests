@@ -190,6 +190,6 @@ local plr = game.Players.LocalPlayer
 	if workspace.FriendlyNPCs:FindFirstChild("Finishedd") then
 		workspace.FriendlyNPCs.Finishedd.Name = "Quest Giver"
 	end
-	if workspace.FriendlyNCPs:FindFirstChild("Finishedd") then
+	if workspace.FriendlyNPCs:FindFirstChild("Finishedd") then
 		workspace.FriendlyNPCs.Finishedd.Name = "Quest Giver"
 	end
