@@ -11,6 +11,8 @@ local plr = game.Players.LocalPlayer
 	end
 	local cloneQuest1 = quest1:Clone()
 	local cloneQuest2 = quest2:Clone()
+	quest1:Destroy()
+	quest2:Destroy()
 	local ChatStart = plr.Backpack.ServerTraits.ChatStart
 	ChatStart:FireServer(workspace.FriendlyNPCs["Bulma"])
 	wait(0.5)
