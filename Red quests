@@ -1,6 +1,16 @@
 local plr = game.Players.LocalPlayer
-	game.Workspace.FriendlyNPCs["Quest Giver"]:Destroy()
-	game.Workspace.FriendlyNPCs["Quest Giver"]:Destroy()
+	local quest1 = game.Workspace.FriendlyNPCs["Quest Giver"]
+	local quest2 = game.Workspace.FriendlyNPCs["Quest Giver"]
+	local cf1
+	local cf2
+	if quest1:FindFirstChild("HumanoidRootPart") then
+		cf1 = quest1.HumanoidRootPart.CFrame
+	end
+	if quest2:FindFirstChild("HumanoidRootPart") then
+		cf2 = quest2.HumanoidRootPart.CFrame
+	end
+	local cloneQuest1 = quest1:Clone()
+	local cloneQuest2 = quest2:Clone()
 	local ChatStart = plr.Backpack.ServerTraits.ChatStart
 	ChatStart:FireServer(workspace.FriendlyNPCs["Bulma"])
 	wait(0.5)
@@ -187,3 +197,11 @@ local plr = game.Players.LocalPlayer
 	ChatAdvance:FireServer({
 		[1] = "k",
 	})
+	cloneQuest1.Parent = workspace.FriendlyNPCs
+	cloneQuest2.Parent = workspace.FriendlyNPCs
+	if cloneQuest1:FindFirstChild("HumanoidRootPart") then
+		cloneQuest1.HumanoidRootPart.CFrame = cf1
+	end
+	if cloneQuest2:FindFirstChild("HumanoidRootPart") then
+		cloneQuest2.HumanoidRootPart.CFrame = cf2
+	end
