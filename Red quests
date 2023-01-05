@@ -1,4 +1,6 @@
 local plr = game.Players.LocalPlayer
+	game.Workspace.FriendlyNPCs["Quest Giver"]:Destroy()
+	game.Workspace.FriendlyNPCs["Quest Giver"]:Destroy()
 	local ChatStart = plr.Backpack.ServerTraits.ChatStart
 	ChatStart:FireServer(workspace.FriendlyNPCs["Bulma"])
 	wait(0.5)
