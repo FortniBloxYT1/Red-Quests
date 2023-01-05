@@ -9,8 +9,8 @@ local plr = game.Players.LocalPlayer
 	if quest2:FindFirstChild("HumanoidRootPart") then
 		cf2 = quest2.HumanoidRootPart.CFrame
 	end
-	local cloneQuest1 = quest1:Clone()
-	local cloneQuest2 = quest2:Clone()
+	local cloneQuest1 = quest1:Clone().Parent = workspace
+	local cloneQuest2 = quest2:Clone().Parent = workspace
 	quest1:Destroy()
 	quest2:Destroy()
 	local ChatStart = plr.Backpack.ServerTraits.ChatStart
