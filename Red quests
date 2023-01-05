@@ -1,6 +1,6 @@
 local plr = game.Players.LocalPlayer
-	game.Workspace.FriendlyNPCs["Quest Giver"].Name = "Finished"
-	game.Workspace.FriendlyNPCs["Quest Giver"].Name = "Finished"
+	game.Workspace.FriendlyNPCs["Quest Giver"].Name = "Finishedd"
+	game.Workspace.FriendlyNPCs["Quest Giver"].Name = "Finishedd"
 	local ChatStart = plr.Backpack.ServerTraits.ChatStart
 	ChatStart:FireServer(workspace.FriendlyNPCs["Bulma"])
 	wait(0.5)
@@ -187,3 +187,9 @@ local plr = game.Players.LocalPlayer
 	ChatAdvance:FireServer({
 		[1] = "k",
 	})
+	if workspace.FriendlyNPCs:FindFirstChild("Finishedd") then
+		workspace.FriendlyNPCs.Finishedd.Name = "Quest Giver"
+	end
+	workspace.FriendlyNCPs:FindFirstChild("Finishedd") then
+		workspace.FriendlyNPCs.Finishedd.Name = "Quest Giver"
+	ened
