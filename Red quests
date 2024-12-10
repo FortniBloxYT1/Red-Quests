@@ -193,3 +193,12 @@ local plr = game.Players.LocalPlayer
 	if workspace.FriendlyNPCs:FindFirstChild("Finishedd") then
 		workspace.FriendlyNPCs.Finishedd.Name = "Quest Giver"
 	end
+
+task.wait(0.5)
+plr.Backpack.ServerTraits.ChatStart:FireServer(workspace.FriendlyNPCs.Korin.Chat.Chat)
+task.wait(0.5)
+plr.Backpack.ServerTraits.ChatAdvance:FireServer({"k"})
+task.wait(0.5)
+plr.Backpack.ServerTraits.ChatAdvance:FireServer({"k"})
+task.wait(0.5)
+plr.Backpack.ServerTraits.ChatAdvance:FireServer({"DRINK"})
