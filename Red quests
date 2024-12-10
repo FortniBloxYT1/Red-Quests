@@ -155,38 +155,7 @@ local plr = game.Players.LocalPlayer
 	ChatAdvance:FireServer({
 		[1] = "k",
 	})
-	wait(2.5)
-	local ChatStart = plr.Backpack.ServerTraits.ChatStart
-	ChatStart:FireServer(workspace.FriendlyNPCs["Korin"])
-	wait(0.5)
-	local ChatAdvance = plr.Backpack.ServerTraits.ChatAdvance
-	ChatAdvance:FireServer({
-		[1] = "k",
-	})
-	local ChatAdvance = plr.Backpack.ServerTraits.ChatAdvance
-	ChatAdvance:FireServer({
-		[1] = "k",
-	})
-	wait(0.5)
-	local ChatAdvance = plr.Backpack.ServerTraits.ChatAdvance
-	ChatAdvance:FireServer({
-		[1] = "k",
-	})
-	wait(0.5)
-	local ChatAdvance = plr.Backpack.ServerTraits.ChatAdvance
-	ChatAdvance:FireServer({
-		[1] = "k",
-	})
-	wait(0.5)
-	local ChatAdvance = plr.Backpack.ServerTraits.ChatAdvance
-	ChatAdvance:FireServer({
-		[1] = "DRINK",
-	})
-	wait(0.5)
-	local ChatAdvance = plr.Backpack.ServerTraits.ChatAdvance
-	ChatAdvance:FireServer({
-		[1] = "k",
-	})
+	wait(2)
 	if workspace.FriendlyNPCs:FindFirstChild("Finishedd") then
 		workspace.FriendlyNPCs.Finishedd.Name = "Quest Giver"
 	end
