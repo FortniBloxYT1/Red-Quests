@@ -2,6 +2,7 @@ local TS = game:GetService("TweenService")
 local plr = game.Players.LocalPlayer
 	game.Workspace.FriendlyNPCs["Quest Giver"].Name = "Finishedd"
 	game.Workspace.FriendlyNPCs["Quest Giver"].Name = "Finishedd"
+	getgenv().DoingRedQuests = true
     local Tween = TS:Create(plr.Character.HumanoidRootPart, TweenInfo.new(5), {CFrame = workspace.FriendlyNPCs["Bulma"].WorldPivot})
     Tween:Play()
     Tween.Completed:Wait()
@@ -204,3 +205,4 @@ task.wait(0.5)
 plr.Backpack.ServerTraits.ChatAdvance:FireServer({"k"})
 task.wait(0.5)
 plr.Backpack.ServerTraits.ChatAdvance:FireServer({"DRINK"})
+getgenv().DoingRedQuests = false
