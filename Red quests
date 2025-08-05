@@ -1,6 +1,11 @@
+local TS = game:GetService("TweenService")
 local plr = game.Players.LocalPlayer
 	game.Workspace.FriendlyNPCs["Quest Giver"].Name = "Finishedd"
 	game.Workspace.FriendlyNPCs["Quest Giver"].Name = "Finishedd"
+    local Tween = TS:Create(plr.Character.HumanoidRootPart, TweenInfo.new(5), {CFrame = workspace.FriendlyNPCs["Bulma"].WorldPivot})
+    Tween:Play()
+    Tween.Completed:Wait()
+    task.wait(0.1)
 	local ChatStart = plr.Backpack.ServerTraits.ChatStart
 	ChatStart:FireServer(workspace.FriendlyNPCs["Bulma"])
 	wait(0.5)
@@ -23,6 +28,10 @@ local plr = game.Players.LocalPlayer
 		[1] = "k",
 	})
 	wait(0.7)
+    local Tween = TS:Create(plr.Character.HumanoidRootPart, TweenInfo.new(5), {CFrame = workspace.FriendlyNPCs["Spaceship"].WorldPivot})
+    Tween:Play()
+    Tween.Completed:Wait()
+    task.wait(0.1)
 	local ChatStart = plr.Backpack.ServerTraits.ChatStart
 	ChatStart:FireServer(workspace.FriendlyNPCs["Spaceship"])
 	wait(0.5)
@@ -46,6 +55,10 @@ local plr = game.Players.LocalPlayer
 	wait(0.7)
 	--/////////////////////////////////////////////////////
 	wait()
+    local Tween = TS:Create(plr.Character.HumanoidRootPart, TweenInfo.new(5), {CFrame = workspace.FriendlyNPCs["Trunks [Future]"].WorldPivot})
+    Tween:Play()
+    Tween.Completed:Wait()
+    task.wait(0.1)
 	local ChatStart = plr.Backpack.ServerTraits.ChatStart
 	ChatStart:FireServer(workspace.FriendlyNPCs["Trunks [Future]"])
 	wait(0.5)
@@ -68,6 +81,10 @@ local plr = game.Players.LocalPlayer
 		[1] = "k",
 	})
 	wait(0.7)
+    local Tween = TS:Create(plr.Character.HumanoidRootPart, TweenInfo.new(1), {CFrame = workspace.FriendlyNPCs["TimeMachine"].WorldPivot})
+    Tween:Play()
+    Tween.Completed:Wait()
+    task.wait(0.1)
 	local ChatStart = plr.Backpack.ServerTraits.ChatStart
 	ChatStart:FireServer(workspace.FriendlyNPCs["TimeMachine"])
 	wait(0.5)
@@ -85,6 +102,10 @@ local plr = game.Players.LocalPlayer
 		[1] = "No",
 	})
 	wait(0.7)
+    local Tween = TS:Create(plr.Character.HumanoidRootPart, TweenInfo.new(5), {CFrame = workspace.FriendlyNPCs["Quest Giver"].WorldPivot})
+    Tween:Play()
+    Tween.Completed:Wait()
+    task.wait(0.1)
 	local ChatStart = plr.Backpack.ServerTraits.ChatStart
 	ChatStart:FireServer(workspace.FriendlyNPCs["Quest Giver"])
 	wait(0.5)
@@ -108,6 +129,10 @@ local plr = game.Players.LocalPlayer
 	})
 	wait(0.7)
 	wait()
+    local Tween = TS:Create(plr.Character.HumanoidRootPart, TweenInfo.new(5), {CFrame = workspace.FriendlyNPCs["NamekianShip"].WorldPivot})
+    Tween:Play()
+    Tween.Completed:Wait()
+    task.wait(0.1)
 	local ChatStart = plr.Backpack.ServerTraits.ChatStart
 	ChatStart:FireServer(workspace.FriendlyNPCs["NamekianShip"])
 	wait(0.5)
@@ -129,6 +154,10 @@ local plr = game.Players.LocalPlayer
 		[1] = "k",
 	})
 	wait(0.7)
+    local Tween = TS:Create(plr.Character.HumanoidRootPart, TweenInfo.new(5), {CFrame = workspace.FriendlyNPCs["Elder Kai"].WorldPivot})
+    Tween:Play()
+    Tween.Completed:Wait()
+    task.wait(0.1)
 	local ChatStart = plr.Backpack.ServerTraits.ChatStart
 	ChatStart:FireServer(workspace.FriendlyNPCs["Elder Kai"])
 	wait(0.5)
@@ -164,6 +193,10 @@ local plr = game.Players.LocalPlayer
 	end
 
 task.wait(0.5)
+local Tween = TS:Create(plr.Character.HumanoidRootPart, TweenInfo.new(5), {CFrame = workspace.FriendlyNPCs["Korin"].WorldPivot})
+Tween:Play()
+Tween.Completed:Wait()
+task.wait(0.1)
 plr.Backpack.ServerTraits.ChatStart:FireServer(workspace.FriendlyNPCs.Korin.Chat.Chat)
 task.wait(0.5)
 plr.Backpack.ServerTraits.ChatAdvance:FireServer({"k"})
