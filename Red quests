@@ -35,7 +35,7 @@ local plr = game.Players.LocalPlayer
 		[1] = "k",
 	})
 	wait(0.7)
-    local Tween = TS:Create(plr.Character.HumanoidRootPart, TweenInfo.new((plr.Character.HumanoidRootPart.Position - workspace.FriendlyNPCs["Spaceship"].WorldPivot.Position).magnitude / 700)), {CFrame = workspace.FriendlyNPCs["Spaceship"].WorldPivot})
+    local Tween = TS:Create(plr.Character.HumanoidRootPart, TweenInfo.new((plr.Character.HumanoidRootPart.Position - workspace.FriendlyNPCs["Spaceship"].WorldPivot.Position).magnitude / 700), {CFrame = workspace.FriendlyNPCs["Spaceship"].WorldPivot})
     Tween:Play()
     Tween.Completed:Wait()
     task.wait(0.1)
@@ -62,7 +62,7 @@ local plr = game.Players.LocalPlayer
 	wait(0.7)
 	--/////////////////////////////////////////////////////
 	wait()
-    local Tween = TS:Create(plr.Character.HumanoidRootPart, TweenInfo.new((plr.Character.HumanoidRootPart.Position - workspace.FriendlyNPCs["Trunks [Future]"].WorldPivot.Position).magnitude / 700)), {CFrame = workspace.FriendlyNPCs["Trunks [Future]"].WorldPivot})
+    local Tween = TS:Create(plr.Character.HumanoidRootPart, TweenInfo.new((plr.Character.HumanoidRootPart.Position - workspace.FriendlyNPCs["Trunks [Future]"].WorldPivot.Position).magnitude / 700), {CFrame = workspace.FriendlyNPCs["Trunks [Future]"].WorldPivot})
     Tween:Play()
     Tween.Completed:Wait()
     task.wait(0.1)
@@ -88,7 +88,7 @@ local plr = game.Players.LocalPlayer
 		[1] = "k",
 	})
 	wait(0.7)
-    local Tween = TS:Create(plr.Character.HumanoidRootPart, TweenInfo.new((plr.Character.HumanoidRootPart.Position - workspace.FriendlyNPCs["TimeMachine"].WorldPivot.Position).magnitude / 700)), {CFrame = workspace.FriendlyNPCs["TimeMachine"].WorldPivot})
+    local Tween = TS:Create(plr.Character.HumanoidRootPart, TweenInfo.new((plr.Character.HumanoidRootPart.Position - workspace.FriendlyNPCs["TimeMachine"].WorldPivot.Position).magnitude / 700), {CFrame = workspace.FriendlyNPCs["TimeMachine"].WorldPivot})
     Tween:Play()
     Tween.Completed:Wait()
     task.wait(0.1)
@@ -109,7 +109,7 @@ local plr = game.Players.LocalPlayer
 		[1] = "No",
 	})
 	wait(0.7)
-    local Tween = TS:Create(plr.Character.HumanoidRootPart, TweenInfo.new((plr.Character.HumanoidRootPart.Position - workspace.FriendlyNPCs["Quest Giver"].WorldPivot.Position).magnitude / 700)), {CFrame = workspace.FriendlyNPCs["Quest Giver"].WorldPivot})
+    local Tween = TS:Create(plr.Character.HumanoidRootPart, TweenInfo.new((plr.Character.HumanoidRootPart.Position - workspace.FriendlyNPCs["Quest Giver"].WorldPivot.Position).magnitude / 700), {CFrame = workspace.FriendlyNPCs["Quest Giver"].WorldPivot})
     Tween:Play()
     Tween.Completed:Wait()
     task.wait(0.1)
@@ -136,7 +136,7 @@ local plr = game.Players.LocalPlayer
 	})
 	wait(0.7)
 	wait()
-    local Tween = TS:Create(plr.Character.HumanoidRootPart, TweenInfo.new((plr.Character.HumanoidRootPart.Position - workspace.FriendlyNPCs["Namekian Ship"].WorldPivot.Position).magnitude / 700)), {CFrame = workspace.FriendlyNPCs["NamekianShip"].WorldPivot})
+    local Tween = TS:Create(plr.Character.HumanoidRootPart, TweenInfo.new((plr.Character.HumanoidRootPart.Position - workspace.FriendlyNPCs["Namekian Ship"].WorldPivot.Position).magnitude / 700), {CFrame = workspace.FriendlyNPCs["NamekianShip"].WorldPivot})
     Tween:Play()
     Tween.Completed:Wait()
     task.wait(0.1)
@@ -161,7 +161,7 @@ local plr = game.Players.LocalPlayer
 		[1] = "k",
 	})
 	wait(0.7)
-    local Tween = TS:Create(plr.Character.HumanoidRootPart, TweenInfo.new((plr.Character.HumanoidRootPart.Position - workspace.FriendlyNPCs["Elder Kai"].WorldPivot.Position).magnitude / 700)), {CFrame = workspace.FriendlyNPCs["Elder Kai"].WorldPivot})
+    local Tween = TS:Create(plr.Character.HumanoidRootPart, TweenInfo.new((plr.Character.HumanoidRootPart.Position - workspace.FriendlyNPCs["Elder Kai"].WorldPivot.Position).magnitude / 700), {CFrame = workspace.FriendlyNPCs["Elder Kai"].WorldPivot})
     Tween:Play()
     Tween.Completed:Wait()
     task.wait(0.1)
@@ -200,7 +200,7 @@ local plr = game.Players.LocalPlayer
 	end
 
 task.wait(0.5)
-local Tween = TS:Create(plr.Character.HumanoidRootPart, TweenInfo.new((plr.Character.HumanoidRootPart.Position - workspace.FriendlyNPCs["Korin"].WorldPivot.Position).magnitude / 700)), {CFrame = workspace.FriendlyNPCs["Korin"].WorldPivot})
+local Tween = TS:Create(plr.Character.HumanoidRootPart, TweenInfo.new((plr.Character.HumanoidRootPart.Position - workspace.FriendlyNPCs["Korin"].WorldPivot.Position).magnitude / 700), {CFrame = workspace.FriendlyNPCs["Korin"].WorldPivot})
 Tween:Play()
 Tween.Completed:Wait()
 task.wait(0.1)
