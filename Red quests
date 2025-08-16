@@ -200,15 +200,21 @@ local plr = game.Players.LocalPlayer
 	end
 
 task.wait(0.5)
-local Tween = TS:Create(plr.Character.HumanoidRootPart, TweenInfo.new((plr.Character.HumanoidRootPart.Position - workspace.FriendlyNPCs["Korin"].WorldPivot.Position).magnitude / 700), {CFrame = workspace.FriendlyNPCs["Korin"].WorldPivot})
-Tween:Play()
-Tween.Completed:Wait()
-task.wait(0.1)
-plr.Backpack.ServerTraits.ChatStart:FireServer(workspace.FriendlyNPCs.Korin.Chat.Chat)
-task.wait(0.5)
-plr.Backpack.ServerTraits.ChatAdvance:FireServer({"k"})
-task.wait(0.5)
-plr.Backpack.ServerTraits.ChatAdvance:FireServer({"k"})
-task.wait(0.5)
-plr.Backpack.ServerTraits.ChatAdvance:FireServer({"DRINK"})
+if plr.Character.Race.Value ~= "Namekian" and plr.Character.Race.Value ~= "Saiyan" then
+	local Tween = TS:Create(plr.Character.HumanoidRootPart, TweenInfo.new((plr.Character.HumanoidRootPart.Position - workspace.FriendlyNPCs["Korin"].WorldPivot.Position).magnitude / 700), {CFrame = workspace.FriendlyNPCs["Korin"].WorldPivot})
+	Tween:Play()
+	Tween.Completed:Wait()
+	task.wait(0.1)
+	plr.Backpack.ServerTraits.ChatStart:FireServer(workspace.FriendlyNPCs.Korin)
+	task.wait(0.5)
+	plr.Backpack.ServerTraits.ChatAdvance:FireServer({"k"})
+	task.wait(0.5)
+	plr.Backpack.ServerTraits.ChatAdvance:FireServer({"k"})
+	task.wait(0.5)
+	plr.Backpack.ServerTraits.ChatAdvance:FireServer({"k"})
+	task.wait(0.5)
+	plr.Backpack.ServerTraits.ChatAdvance:FireServer({"DRINK"})
+	task.wait(0.5)
+	plr.Backpack.ServerTraits.ChatAdvance:FireServer({"K"})
+end
 getgenv().DoingRedQuests = false
